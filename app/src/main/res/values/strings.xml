@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AiqiyiPlayPage</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="action_open_playpage">OPENPLAYPAGE</string>
+    <string name="action_open_listpage">OPENLISTPAGE</string>
+    <string name="action_open_staggerpage">OPENSTAGGERPAGE</string>
+    <string name="action_open_staggersuper">OPENSTAGGERSUPER</string>
+</resources>

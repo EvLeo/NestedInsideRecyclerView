@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:textColor="#457cee"/>
+
+    <LinearLayout
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_title"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/common_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white_100"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/color_divider"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/common_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white_100"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/transparent"
+            android:scrollbars="none"
+            android:listSelector="@color/transparent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
