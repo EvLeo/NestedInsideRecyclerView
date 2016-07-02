@@ -4,7 +4,7 @@
 ## 有啥用？
 ### 利用RecyclerView嵌套ListView、GridView，完成复杂页面的list列表展示。
 
-## 主要代码
+## 实例代码片段
 
       public void onBindViewHolder(final MyViewHolder holder, final int position) {
           LayoutParams lp = holder.cardView.getLayoutParams();
